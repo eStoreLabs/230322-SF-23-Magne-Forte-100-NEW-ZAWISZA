@@ -110,18 +110,19 @@
     color: inherit;
     font-family: "Bliss";
     font-weight: 600;
-    font-size: 16px;
+    /* font-size: 16px; */
     text-transform: uppercase;
     text-shadow: 0px 0px 5px #7999cf;
     position: relative;
     z-index: 5;
     margin-bottom: 20%;
+    font-size: clamp(0.6875rem, -0.1161rem + 4.2857vw, 2rem);
 }
-@media (max-width: 300px) {
+/* @media (max-width: 300px) {
     #es-magne-b6.es-magne-b6 .es-kv__subtitle {
         font-size: 12px;
     }
-}
+} */
 #es-magne-b6.es-magne-b6 .es-kv__label {
   font-family: "Bliss-Heavy", sans-serif;
   text-transform: uppercase;
@@ -1210,7 +1211,8 @@
     #es-magne-b6.es-magne-b6 .es-kv__subtitle {
         text-align: left;
         margin-left: 5%;
-        font-size: clamp(1.0625rem, 0.4375rem + 3.125vw, 2rem);
+        /* font-size: clamp(1.0625rem, 0.4375rem + 3.125vw, 2rem); */
+
     }
     #es-magne-b6.es-magne-b6 .es-kv__packshot {
         padding-bottom: 0;
